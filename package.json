@@ -1,0 +1,29 @@
+{
+  "name": "starhour-chooser",
+  "version": "1.0.0",
+  "license":"MIT",
+  "description": "choose a winner from command line options",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Big Ethan",
+    "email": "e@bigethan.com",
+    "url": "bigethan.com"
+  },
+  "license": "MIT",
+  "bin": {
+    "pick-random": "cli.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "cli.js",
+    "fanfare.mp3",
+    "ooooh.wav",
+    "uhoh.wav",
+    "yay.wav",
+    "boo.wav"
+  ]
+}
